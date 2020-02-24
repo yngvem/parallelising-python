@@ -7,7 +7,10 @@ It is sometimes stated that parallel code is difficult in Python. However, for m
 3. With Numba
 4. With Cython
 
-These methods range in complexity from easiest to most difficult.
+These methods range in complexity from easiest to most difficult. 
+
+After discussing Cython, there is a short example with Numba vectorize, which can be used for functions that should be applied element-wise on numerical NumPy arrays.
+
 
 ## Parallel code with NumPy
 
